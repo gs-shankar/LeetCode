@@ -1,0 +1,39 @@
+# Intellij project files
+.idea
+*.iml
+out
+gen
+
+# Scala
+.worksheet
+.scala_dependencies
+
+# Compiles class file
+*.class
+
+# Scala worksheet
+*.sc
+
+# log file
+*.log
+
+# Package files
+*.jar
+*.war
+*.zip
+*.rar
+*.tar.gz
+
+# VM Crash logs
+hs_err_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionBackup
+pom.xml.next
+release.properties
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
