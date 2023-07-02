@@ -22,6 +22,8 @@ Constraints:
 strs[i] consists of only lowercase English letters.
 */
 
+import scala.annotation.tailrec
+
 object LongestCommonPrefix extends App {
   def longestCommonPrefix1(words: Array[String]): String = {
     val minVal = words.minBy(_.length).length
